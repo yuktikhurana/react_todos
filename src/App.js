@@ -34,7 +34,7 @@ class App extends Component {
                  value={this.state.input}
                  onChange={this.onChange.bind(this)}
           />
-          <button onClick={this.addTodo.bind(this)}>Add Todo</button>
+          <button onClick={this.addTodo.bind(this)}>Add New Todo</button>
         </div>
         <ul>
           { this.state.todos.map((todo) =>
